@@ -1,0 +1,29 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"devStart": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "adil",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"helmet": "^5.1.1",
+		"joi": "^17.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.1.0",
+		"multer": "^1.4.4",
+		"nodemailer": "^6.7.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
