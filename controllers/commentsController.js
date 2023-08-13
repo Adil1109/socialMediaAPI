@@ -2,7 +2,8 @@ const Comment = require('../models/commentsModel');
 
 exports.getComments = async (req, res) => {
 	// This controller has better code and algorithm which is closed sourced
-	const { postId, page } = req.query;
+	const {postId} = req.params;
+	const {  page } = req.query;
 	const commentsPerPage = 10;
 
 	try {
